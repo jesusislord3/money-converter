@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["LEONEL MORAIS"]
   s.date = "2012-11-29"
-  s.description = "Simple currency converter"
+  s.description = "Currency converter"
   s.email = "leonel.morais@yahoo.com.br"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/money-converter.rb",
+    "money-converter.gemspec",
     "spec/money-converter_spec.rb",
     "spec/spec_helper.rb"
   ]
