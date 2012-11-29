@@ -1,11 +1,7 @@
 require 'rubygems'
 require 'net/http'
 require 'json'
-	# Converts currency from one format to another, for example from USD to
-	# EUR
-	# from_curr the code for the currency that needs to be converted
-	# to_curr the code for the currency that needs to be converted to
-	# amount amount of money in from_curr
+
 
 class MoneyConverter
 

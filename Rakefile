@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "money-converter"
   gem.homepage = "http://github.com/leonelmorais/money-converter"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Simple currency converter}
+  gem.description = %Q{Currency converter}
   gem.email = "leonel.morais@yahoo.com.br"
   gem.authors = ["LEONEL MORAIS"]
   # dependencies defined in Gemfile
