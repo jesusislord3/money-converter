@@ -7,7 +7,7 @@ gem install money-converter
 
 or on your Gemfile:
 ```
-gem "money-converter", "~> 0.1.1"
+gem "money-converter", "~> 1.0.0"
 ```
 
 and run
@@ -24,9 +24,16 @@ bundle install
 require 'money-converter'
 
 money = MoneyConverter.new('BRL','USD',10.00)
-money.convert_currency  #=> :"4.77852 USD"
+money.exchange  #=> 4.77852
 
 ```
+
+### Changelog
+
+Version 1.0.0
+
+* The method ``` convert_currency ``` has been replaced by ``` exchange ``` in this version. 
+
 
 
 ### Contributing to money-converter
