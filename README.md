@@ -2,19 +2,17 @@
 
 ### Install
 
-```
 gem install money-converter
 
-```
 
 ### Usage
 
 ```ruby
 
-	require 'money-converter'
+require 'money-converter'
 
-	money = MoneyConverter.new('BRL','USD',10.00)
-	money.convert_currency  #=> :"4.77852 USD"
+money = MoneyConverter.new('BRL','USD',10.00)
+money.convert_currency  #=> :"4.77852 USD"
 
 ```
 
