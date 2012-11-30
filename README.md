@@ -1,9 +1,9 @@
 # money-converter
 
 ### Install
-
+```
 gem install money-converter
-
+```
 
 ### Usage
 
