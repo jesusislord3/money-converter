@@ -22,7 +22,15 @@ class MoneyConverter
 		http = Net::HTTP.new("www.google.com",80)
 		resp = http.get("/ig/calculator?hl=en&q=#{amount}#{from_currency}=?#{to_currency}")
 		data = resp.body
-		result = JSON(data.gsub(/([\w]+):/, '"\1":'))
+		format_amount_exchanged(data, to_currency)		
+		#result = JSON(r.gsub(/([\w]+):/, '"\1":'))
+	end
+
+	def format_amount_exchanged(data, to_currency)
+		array = data.split('"')
+		amount_exchanged = array[3].split
+		result = amount_exchanged[0].gsub(/[\xA0]/n, '')
+		"#{result} #{to_currency}".to_sym
 	end
 
 end
