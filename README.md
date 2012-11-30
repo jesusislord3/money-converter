@@ -24,7 +24,7 @@ bundle install
 require 'money-converter'
 
 money = MoneyConverter.new('BRL','USD',10.00)
-money.exchange  #=> 4.77852
+money.exchange  #=> 4.74113
 
 ```
 
