@@ -21,7 +21,7 @@ bundle install
 
 ```ruby
 
-require 'money-converter'
+require 'money_converter'
 
 money = MoneyConverter.new('BRL','USD',10.00)
 money.exchange  #=> 4.74113

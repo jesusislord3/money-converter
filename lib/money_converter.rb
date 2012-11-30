@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'net/http'
-
+require 'base'
 
 class MoneyConverter
 	include Base
