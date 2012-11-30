@@ -1,14 +1,12 @@
-= money-converter
+# money-converter
 
-# Installing
-___
+## Installing
 
 ```
 	gem install money-converter
+
 ```
 
-
-Description goes here.
 
 == Contributing to money-converter
  
