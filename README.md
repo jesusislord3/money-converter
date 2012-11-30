@@ -35,6 +35,8 @@ Version 1.0.0
 * The method ``` convert_currency ``` has been replaced by ``` exchange ``` in this version. 
 
 
+
+
 ### Contributing to money-converter
  
 1. Fork the project.
