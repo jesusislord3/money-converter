@@ -1,9 +1,19 @@
 # money-converter
 
-### Install
+### Download and Install
 ```
 gem install money-converter
 ```
+
+or on your Gemfile:
+```
+gem "money-converter", "~> 0.1.1"
+```
+
+```
+bundle
+```
+
 
 ### Usage
 
