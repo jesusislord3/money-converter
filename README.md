@@ -10,8 +10,9 @@ or on your Gemfile:
 gem "money-converter", "~> 0.1.1"
 ```
 
+and run
 ```
-bundle
+bundle install
 ```
 
 
