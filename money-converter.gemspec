@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["LEONEL MORAIS"]
-  s.date = "2012-11-29"
+  s.date = "2012-11-30"
   s.description = "Currency converter"
   s.email = "leonel.morais@yahoo.com.br"
   s.extra_rdoc_files = [
