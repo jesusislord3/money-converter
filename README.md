@@ -1,10 +1,8 @@
 # money-converter
 
-## Installing
+### Installing
 
-```
-	gem install money-converter
-
+```	gem install money-converter
 ```
 
 
