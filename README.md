@@ -2,12 +2,12 @@
 
 ### Download and Install
 ```
-gem install money-converter
+gem install money_converter
 ```
 
 or on your Gemfile:
 ```
-gem "money-converter", "~> 1.0.0"
+gem "money_converter", "~> 1.0.1"
 ```
 
 and run
