@@ -23,6 +23,8 @@ bundle install
 
 require 'money_converter'
 
+#Exchange of brazilian reais(BRL) to us dollars(USD)
+
 money = MoneyConverter.new('BRL','USD',10.00)
 money.exchange  #=> 4.74113
 
